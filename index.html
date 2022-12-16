@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Autor: Borja Estévez Alaminos
+-->
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indice</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div id="menu">
+        <nav>
+            <a href="./index.html">Indice</a>
+            <a href="./curiosidades.html">Curiosidades</a>
+        </nav>
+    </div>
+
+
+    <header>
+        <h1 id="fotoChica">Foto responsive de Chica</h1>
+    </header>
+
+    <picture id="portaFoto">
+
+        <!--  opciones de imágenes responsivas
+        tamaños (ancho x alto)
+
+
+        <!-- imágenes GRANDES -->
+
+        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./imagenes/imagenHorizontalGrande.avif" type="image/avif">
+        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./imagenes/imagenHorizontalGrande.webp" type="image/webp">
+        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./imagenes/imagenHorizontalGrande.jpg" type="image/jpg">
+        <source media="(orientation: portrait) and (min-width:601px)" srcset="./imagenes/imagenVerticalGrande.avif" type="image/avif">
+        <source media="(orientation: portrait) and (min-width:601px)" srcset="./imagenes/imagenVerticalGrande.webp" type="image/webp">
+        <source media="(orientation: portrait) and (min-width:601px)" srcset="./imagenes/imagenVerticalGrande.jpg" type="image/jpg">
+
+        <!-- imágenes MEDIANAS -->
+
+        <source media="(orientation: landscape) and (min-width: 901px)" srcset="./imagenes/imagenHorizontalMediana.avif" type="image/avif">
+        <source media="(orientation: landscape) and (min-width: 901px)" srcset="./imagenes/imagenHorizontalMediana.webp" type="image/webp">
+        <source media="(orientation: landscape) and (min-width: 901px)" srcset="./imagenes/imagenHorizontalMediana.jpg" type="image/jpg">
+        <source media="(orientation: portrait) and (min-width:401px)" srcset="./imagenes/imagenVerticalMediana.avif" type="image/avif">
+        <source media="(orientation: portrait) and (min-width:401px)" srcset="./imagenes/imagenVerticalMediana.webp" type="image/webp">
+        <source media="(orientation: portrait) and (min-width:401px)" srcset="./imagenes/imagenVerticalMediana.jpg" type="image/jpg">
+
+        <!-- imágenes PEQUEÑAS -->
+
+        <source media="(orientation: landscape) and (max-width: 900px)" srcset="./imagenes/imagenHorizontalPequeña.avif" type="image/avif">
+        <source media="(orientation: landscape) and (max-width: 900px)" srcset="./imagenes/imagenHorizontalPequeña.webp" type="image/webp">
+        <source media="(orientation: landscape) and (max-width: 900px)" srcset="./imagenes/imagenHorizontalPequeña.jpg" type="image/jpg">
+        <source media="(orientation: portrait) and (max-width: 400px)" srcset="./imagenes/imagenVerticalPequeña.avif" type="image/avif">
+        <source media="(orientation: portrait) and (max-width: 400px)" srcset="./imagenes/imagenVerticalPequeña.webp" type="image/webp">
+        <source media="(orientation: portrait) and (max-width: 400px)" srcset="./imagenes/imagenVerticalPequeña.jpg" type="image/jpg">
+
+        <img id="laFoto" alt="Foto de un Gato" title="Un paisaje conocido" src="./imagenes/chica.jpg" />
+    </picture>
+    
+    <footer>Realizado por Borja Estévez</footer>
+</body>
+
+</html>
